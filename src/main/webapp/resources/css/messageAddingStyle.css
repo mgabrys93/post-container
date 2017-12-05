@@ -1,0 +1,130 @@
+.message-form{
+    max-width: 600px;
+    padding: 15px;
+    margin: auto;
+}
+.message-form .message-form-heading{
+    margin-bottom: 15px;
+}
+
+.add-image-button .submit-button{
+    padding: 10px;
+    position: relative;
+}
+
+.heading-row{
+    padding-left: 10%;
+}
+
+.comment-container{
+    border-radius: 10px;
+    margin-right: 5%;
+    margin-left: 10%;
+    background-color: slategrey;
+    margin-bottom: 5px;
+}
+
+.post-container{
+    border-radius: 10px;
+    background-color: silver;
+    margin: 20px 5%;
+}
+
+.add-image{
+    margin: 20px auto;
+    display: block;
+    width: 80%;
+}
+
+.delete-post-sign{
+    float: right;
+    margin-right: 10%;
+    margin-top: 1%;
+}
+
+textarea{
+    height: 200px !important;
+    width: 100%;
+}
+
+hr{
+    border: 1px #000000 solid;
+}
+
+@media  (max-width: 639px){
+    .add-image-button{
+        display: block;
+    }
+
+    .submit-button, .add-image-button {
+        width: 100%;
+    }
+
+    .author{
+        float: left;
+        display: block;
+
+    }
+
+    .display-image{
+        display: block;
+        max-width: 60%;
+        margin: auto;
+        image-resolution: from-image;
+    }
+
+    .message-view-with-image{
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+}
+.message-view{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 25px;
+    margin: auto;
+    text-align: left;
+}
+
+#commentTextArea{
+    height: 100px!important;
+}
+
+@media (min-width: 640px) {
+    .date{
+        float: left;
+        width: 30%;
+        display: inline;
+        padding-bottom: 10px;
+    }
+
+    .author{
+        float: right;
+        width: 50%;
+    }
+
+    .add-image-button{
+        float: left;
+        width: 25%;
+    }
+    .submit-button{
+        float: right;
+        width: 50%;
+    }
+
+    .message-view-with-image{
+        float: right;
+        width: 50%;
+        display: inline;
+    }
+
+    .display-image{
+        display: block;
+        padding-left: 10%;
+        margin-bottom: 10px;
+        float: left;
+        max-width: 40%;
+        image-resolution: from-image;
+    }
+}
